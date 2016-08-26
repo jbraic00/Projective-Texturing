@@ -1,0 +1,2 @@
+C:\Users\Josipa\Desktop\faks\8. semestar\Trodimenzionalne simulacije\labovi\Vjezba04\Engine\Engine.vcxproj;x86
+C:\Users\Josipa\Desktop\faks\8. semestar\Trodimenzionalne simulacije\Projective Texturing\Projective Texturing\Projective Texturing.vcxproj;x86

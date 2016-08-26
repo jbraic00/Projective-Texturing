@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>f5975aa4-923d-4751-b876-25ca257c36b3</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+    <Image Include="Assets\Logo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Filter Include="Rendering">
+      <UniqueIdentifier>{5fcc4c39-69de-4688-805c-7ecc2c8b5f62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{18dfcd27-6038-46b0-9df4-b2b15a8607b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{2422760e-4771-400a-b688-54da47c3cda0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models">
+      <UniqueIdentifier>{852e3da3-5e8a-4ad5-9e91-7ee3d4050b7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{037e554a-3f5f-4632-9351-7244d1e0af05}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Renderer3D.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Program.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectionViewPoint.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Renderer3D.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Floor.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectionViewPoint.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Projective Texturing_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Projective Texturing.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="VertexShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="PixelShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\seafloor.dds">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\stone.dds">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\dx11.dds">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\pikachu.dds">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\pokemon.dds">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
